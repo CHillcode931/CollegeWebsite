@@ -1,5 +1,5 @@
-body {margin: 0;}
-
+body {margin: 0; font-size: 10px;}
+ 
 
 
 .grid-container {
@@ -13,17 +13,20 @@ body {margin: 0;}
     "footer footer";
   }
       
-      .header
-      {color: blue;
-    background-color: black;
-grid-area: header;}
+      .header 
+      {color: blue; 
+      grid-area: header;
+    }
+h1 { font-size: 30px;}
 
 footer { background-color: blue;
 color: aqua;
 grid-area: footer; 
 text-align: center;
-grid-area: footer
-};
+grid-area: footer;
+grid-column: 1/3;
+grid-row: 3;
+}
 
 .courses
 {background-color: blue; color: black;}
@@ -47,10 +50,12 @@ grid-row: 1/10}
 .courses {grid-column: 25%;
 grid-row: 1/10}
 
-.navlist { background-color: black;
+.navlist { background-color: rgb(143, 108, 59);
 color: blue;
 grid-column: 25%;
 grid-row: 1/10;}
 
 
 .courses { background-color: green;}
+.courses{ color: blue;}
+
