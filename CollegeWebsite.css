@@ -1,0 +1,56 @@
+body {margin: 0;}
+
+
+
+.grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 9 1fr;
+    grid-template-rows : 9 1fr ;
+    grid-template-areas: 
+    "header header"
+    "main main "
+    "footer footer";
+  }
+      
+      .header
+      {color: blue;
+    background-color: black;
+grid-area: header;}
+
+footer { background-color: blue;
+color: aqua;
+grid-area: footer; 
+text-align: center;
+grid-area: footer
+};
+
+.courses
+{background-color: blue; color: black;}
+
+.pitches
+{background-color: darkturquoise;}
+
+
+
+.main
+{display: grid;
+grid-area: main;
+background-color: orange;
+grid-template-columns: 50% 25% 25%;
+grid-template-rows: repeat(9, 1fr);
+width: 100%;}
+
+.pitches { grid-column: 50%;
+grid-row: 1/10}
+
+.courses {grid-column: 25%;
+grid-row: 1/10}
+
+.navlist { background-color: black;
+color: blue;
+grid-column: 25%;
+grid-row: 1/10;}
+
+
+.courses { background-color: green;}
