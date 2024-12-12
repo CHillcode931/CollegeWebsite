@@ -68,4 +68,29 @@ ul { text-decoration-line: underline;}
 .navlist button:hover{ 
   background-color: aqua;
   cursor: grab;
+  
+  
+}
+.pitches a:hover { color: aqua;
+text-decoration: none; }
+
+.courses a:hover { color: aqua; text-decoration: none;
+  outline: none;
+  border: 3px;
+}
+.navlist button:hover {
+  outline: none;
+  border: 5px solid;
+  box-shadow:red  ;
+}
+.external-link
+{
+  padding-right: 15px; ;
+}
+.external-link ::after{
+  content: "icon";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50)
 }
