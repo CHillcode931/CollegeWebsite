@@ -83,17 +83,14 @@ text-decoration: none; }
   border: 5px solid;
   box-shadow:red  ;
 }
-.external-link
-{
-  padding-right: 15px; ;
+
 }
-.external-link ::after{
-  content: "icon";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50)
+.link-with-icon{ display: inline-flex;
+align-items: center;
+}
+.link-icon{
+  width: 5px;
+
+
 }
 
-@media (min-width:600px){}
-@media(max-width: 1200p){}
