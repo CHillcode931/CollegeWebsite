@@ -63,7 +63,7 @@ grid-row: 1/10;}
 ul { text-decoration-line: underline;}
 .navlist button{
   background-color: white; 
-  
+  width: 150px;
 }
 .navlist button:hover{ 
   background-color: aqua;
@@ -76,21 +76,25 @@ text-decoration: none; }
 
 .courses a:hover { color: aqua; text-decoration: none;
   outline: none;
-  border: 3px;
-}
+  border: 3px;}
+
 .navlist button:hover {
   outline: none;
   border: 5px solid;
   box-shadow:red  ;
 }
 
-}
+
 .link-with-icon{ display: inline-flex;
 align-items: center;
 }
 .link-icon{
   width: 5px;
-
-
 }
 
+
+.courses li :hover{
+  text-decoration: none;
+}
+
+a:hover { text-decoration: none;}
